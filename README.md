@@ -19,5 +19,8 @@ python manage.py runserver 0:8080
 
 
 ## description
+![HomePageView](./img/20191012221722.png)
+
 간단한 모니터링 웹서비스를 구현하기 위해 aws-EC2와 django를 사용하였음.
 몇초마다 새로고침을 실행하기 위해 자바스크립트 코드를 사용했고 나머진 python코드를 사용하였음.
+
