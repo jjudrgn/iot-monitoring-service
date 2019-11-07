@@ -31,6 +31,8 @@ python manage.py runserver 0:8080
 
 ![HomePageView](./img/20191012223736.png)
 
+http://ip:8080/admin/ 으로 모델 관리 접속.
+
 위그림처럼 미리 데이터를 저장해야 동작함.
 
 now에는 1부터5까지 저장되며 test,서빙완료등을 나타냄
