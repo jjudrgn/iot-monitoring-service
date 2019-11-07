@@ -44,7 +44,9 @@ now에는 1부터5까지 저장되며 test,서빙완료등을 나타냄
 THIS_STATUS 라는 모델에
 
 title : 테스트, Content : test (pk id : 1)
+
 ~
+
 title : now, Content : 1
 
 이런식으로 저장.
