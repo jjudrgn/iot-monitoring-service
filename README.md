@@ -11,6 +11,8 @@ pip install django
 
 python manage.py migrate
 
+python manage.py createsuperuser
+
 python manage.py runserver 0:8080
 
 종료 : ctrl+C, deactivate
