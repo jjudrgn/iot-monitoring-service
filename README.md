@@ -35,8 +35,22 @@ http://ip:8080/admin/ 으로 모델 관리 접속.
 
 위그림처럼 미리 데이터를 저장해야 동작함.
 
-
-
 now에는 1부터5까지 저장되며 test,서빙완료등을 나타냄
 
 /notify/<int:id>으로 접속해서 now 의 content값을 수정하게 되며 이는 이에 대응하는 상태값으로 home페이지에 표시됨.
+
+(부가설명 + 
+
+THIS_STATUS 라는 모델에
+
+title : 테스트, Content : test (pk id : 1)
+~
+title : now, Content : 1
+
+이런식으로 저장.
+
+pk id는 모델에서 기본적으로 제공하는 번호임.
+
+test가 첫번째이므로 자동으로 id번호는 1
+
+now의 Content가 1을 가리키므로 페이지에는 첫번째 데이터인 테스트.test가 표시됨. )
