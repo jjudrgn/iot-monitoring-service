@@ -9,6 +9,8 @@ source <가상환경이름>/bin/activate
 
 pip install django
 
+python manage.py migrate
+
 python manage.py runserver 0:8080
 
 종료 : ctrl+C, deactivate
